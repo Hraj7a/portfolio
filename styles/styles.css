@@ -4,6 +4,24 @@
   box-sizing: border-box;
 }
 
+#me{
+  scroll-margin-top: 220px;  
+}
+
+#skills {
+  scroll-margin-top: 150px;  
+}
+
+#projects{
+  scroll-margin-top: 150px; 
+}
+
+#contact{
+  scroll-margin-top: 80px; 
+}
+
+
+
 :root{
   --background-color: rgb(240, 239, 239);
   --text-color: rgb(8, 8, 8);
