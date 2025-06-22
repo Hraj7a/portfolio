@@ -1,0 +1,44 @@
+.Experiences-section h1{
+  text-align: center;
+  margin-bottom: 10px;
+}
+.Experiences-section p{
+  display: block;
+  color: rgb(26, 115, 232);
+}
+.Experiences-section span{
+  font-family: 'Poppins', sans-serif;
+}
+.Experiences-section h2{
+  margin-right: 35px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.Experiences-section .Experiences-container .Education-div{
+  width: 70%;
+  height: 155px;
+}
+.Experiences-section .BA-degree {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  padding: 10px 20px;
+  border: 2px solid rgb(214, 212, 212);
+  border-radius: 5px ;
+  transition: all;
+  margin-bottom: 50px;
+}
+.Experiences-section .BA-degree:hover {
+  border: 2px solid rgb(197, 195, 195);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+.Experiences-section .text-education {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.Experiences-section .image-education{
+  width: 100%;
+}
+.Experiences-section .image-education img {
+  object-fit: contain;
+} 
