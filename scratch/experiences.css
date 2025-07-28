@@ -42,3 +42,34 @@
 .Experiences-section .image-education img {
   object-fit: contain;
 } 
+
+/*---------------------------------------------------------------------------------------------------------------------*/
+.right-hero{
+  display: grid;
+  margin-bottom: 10px;
+  order: 3;
+  align-content: center;
+}
+.headshot{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  order: 2;
+}
+.headshot{
+  width:fit-content;
+}
+.headshot img{
+  width:100%;
+  height: auto;
+}
+.right-hero{
+  width: 400px;
+}
+.hero-section button{
+  margin-top: 40px;
+}
+.hero-section p {
+  margin-top: 10px;
+}
+
